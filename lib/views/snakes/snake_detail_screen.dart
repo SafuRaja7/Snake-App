@@ -57,6 +57,18 @@ class SnakeDetailScreen extends StatelessWidget {
                     style: const TextStyle(color: Colors.grey),
                   ),
                   const SizedBox(height: 8),
+                  const Text(
+                    'Description',
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
+                  const SizedBox(height: 8),
+                  const Text(
+                    'Add Description Here.....!',
+                  ),
+                  const SizedBox(height: 8),
                   Text('Average Length: ${snake.averageLengthCM}cm'),
                   const SizedBox(height: 8),
                   ClipRRect(
