@@ -155,6 +155,33 @@ class SnakeDetailScreen extends StatelessWidget {
                         .map((String e) => TextTagWidget(text: e))
                         .toList(),
                   ),
+                  const SizedBox(height: 6),
+                  const Text(
+                    'Diet',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 8),
+                  const Text(
+                    'Add Diet Here.....!',
+                  ),
+                  const SizedBox(height: 6),
+                  const Text(
+                    'Habitat',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 8),
+                  const Text(
+                    'Add Habitat Here.....!',
+                  ),
+                  const SizedBox(height: 6),
+                  const Text(
+                    'Cool Stuff',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 8),
+                  const Text(
+                    'Add Cool Stuff Here.....!',
+                  ),
                 ],
               ),
             ),
